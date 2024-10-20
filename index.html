@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+     <link rel="shortcut icon" href="./src/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Piano Educativo</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Piano Educativo</h2>
+        <div class="column volume-slider">
+          <span>Volume</span>
+          <input type="range" min="0" max="1" value="0.5" step="any" />
+        </div>
+        <div class="column keys-check">
+          <span>Teclas</span> <input type="checkbox" checked />
+        </div>
+      </header>
+      <ul class="piano-keys">
+        <ul class="piano-keys">
+            <li class="key white" data-key="1"><span>🐶</span></li>
+            <li class="key black" data-key="2"><span>🐎</span></li>
+            <li class="key white" data-key="3"><span>🐔</span></li>
+            <li class="key black" data-key="4"><span>🐓</span></li>
+            <li class="key white" data-key="5"><span>🪿</span></li>
+            <li class="key black" data-key="6"><span>🐈‍⬛</span></li>
+            <li class="key white" data-key="7"><span>🐑</span></li>
+            <li class="key black" data-key="8"><span>🦆</span></li>
+            <li class="key white" data-key="9"><span>🐷</span></li>
+            <li class="key black" data-key="0"><span>🐂</span></li>
+            <li class="key white" data-key="+"><span>🐘</span></li>
+          </ul>
+    </div>
+
+    <script src="./src/scripts/engine.js" defer></script>
+  </body>
+</html>
