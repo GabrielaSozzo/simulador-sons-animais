@@ -1,6 +1,6 @@
 # **SIMULADOR DE PIANO** 🎹
 
-<p align="center">
+<p>
   <img width="600" alt="image" src="https://github.com/GabrielaSozzo/simulador-sons-animais/blob/main/src/image/simulador.de.sons.animais.PNG" />
 </p>
 
